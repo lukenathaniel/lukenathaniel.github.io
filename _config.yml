@@ -1,18 +1,17 @@
-title: 256 Bloghacks Demo
-email: me@yegor256.com
+title: Searching for Signals - Luke Nathaniel
+email: me@lukenathaniel.com
 description: >
-  This site is a static blog for Jekyll and GitHub Pages,
-  a demo for "256 Bloghacks" book by Yegor Bugayenko
+  A collection of ideas, inspiration, questions and the occasional film reference.
 baseurl: ""
-url: "http://bloghacks.yegor256.com"
-twitter_username: yegor256
-github_username: yegor256
+url: "http://lukenathaniel.com"
+twitter_username: mrlukenathaniel
+github_username: developerluke
 markdown: kramdown
 author:
-  name: "Yegor Bugayenko"
-  email: me@yegor256.com
-encoding: utf-8
-timezone: America/San_Francisco
+  name: "Luke Nathaniel"
+  email: me@lukenathaniel.com
+encoding: utf-6
+timezone: America/Chicago
 permalink: :year/:month/:day/:title.html
 exclude:
   - README.md
@@ -31,8 +30,8 @@ paginate_path: "p/:num"
 excerpt_separator: <!--more-->
 
 feed:
-  title: bloghacks.yegor256.com
-  subtitle: 256 Bloghacks Demo
+  title: lukenathaniel.com
+  subtitle: Searching for Signals
   path: rss.xml
 
 sass:
