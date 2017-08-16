@@ -108,4 +108,21 @@ code {
 .disqus {
   margin: 4em 0;
 }
-
+figure {
+	margin: 0;
+    position: relative;
+}
+figure img {
+	max-width:100%;
+}
+figure figcaption {
+	background-color: #333;
+    bottom: 1em;
+    color: #888;
+    font-size: .7em;
+    left: .5em;
+    line-height: 1em;
+    max-width: 90%;
+    position: absolute;
+	padding:.3em .3em 0 .3em;
+}
