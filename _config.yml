@@ -10,7 +10,7 @@ markdown: kramdown
 author:
   name: "Luke Nathaniel"
   email: me@lukenathaniel.com
-encoding: utf-6
+encoding: utf-8
 timezone: America/Chicago
 permalink: :year/:month/:day/:title.html
 exclude:
