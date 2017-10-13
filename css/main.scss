@@ -2,10 +2,10 @@
 ---
 @charset 'utf-8';
 // see https://fonts.google.com/
-@import 'https://fonts.googleapis.com/css?family=Halant:400,500';
+@import 'https://fonts.googleapis.com/css?family=Lato|Sorts+Mill+Goudy';
 
 $black: #000;
-
+$break-small: 500px;
 %gray { color: lighten($black, 50); }
 
 .gray { @extend %gray; }
@@ -17,14 +17,19 @@ $black: #000;
 * {
   border: 0;
   box-sizing: border-box;
-  font-family: 'Halant', serif;
-  font-size: 20px;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 19px;
   margin: 0;
   padding: 0;
 }
 
 body {
-  padding: 2em;
+  @media screen and (max-width: $break-small) {
+    		padding: 1em;
+  	}
+	 @media screen and (min-width: $break-small) {
+    		padding: 2em;
+  	}
 }
 
 strong {
@@ -65,19 +70,21 @@ header {
 
 article {
   margin: 4em 0;
-
   h1 {
     font-size: 1.8em;
     font-weight: bold;
-	line-height: 1em;
+	@media screen and (max-width: $break-small) {
+    		line-height: 1.1em;
+  	}
+	@media screen and (min-width: $break-small) {
+    		line-height: 1.2em;
+  	}
   }
 
   h2 {
     font-size: 1.4em;
     font-weight: bold;
   }
-
-  p,
   h1,
   h2,
   h3,
@@ -86,7 +93,16 @@ article {
     margin-bottom: .5em;
     margin-top: .5em;
   }
-
+  h1,
+  h2,
+  h3 {
+	font-family: 'Lato', sans-serif;
+  }
+ p {
+	 margin-bottom: .8em;
+	 margin-top: .5em;
+	 line-height:1.4;
+ }
   ul,
   ol {
     margin-left: 3em;
@@ -113,6 +129,10 @@ figure {
 	margin: 0;
     position: relative;
 }
+.right {
+	float:right;
+	clear:both;
+}
 figure img {
 	max-width:100%;
 }
@@ -126,4 +146,12 @@ figure figcaption {
     max-width: 90%;
     position: absolute;
 	padding:.3em .3em 0 .3em;
+}
+hr {
+	border: 0;
+    height: 2px;
+    background: #eee;
+    background-image: linear-gradient(to right, #eee, #ddd, #eee);
+	width:80%;
+	margin: 40px auto;
 }
