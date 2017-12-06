@@ -49,7 +49,7 @@ Besides, I enjoyed his company.
 
 During one such working meal, Bill and I discussed his latest project.
 
-It was now October and winter was on his mind. One of his buildings had recurring problems with ice dams forming at the low side of the pitched roof. We needed to keep the drain pipe free of ice, or we could look forward to having a pond on the roof in January, along with all the problems that go with that.
+It was now October and winter was on his mind. One of his buildings had recurring problems with ice dams forming at the low side of the pitched roof. We needed to keep the drainpipe free of ice, or we could look forward to having a pond on the roof in January, along with all the problems that go with that.
 
 After brainstorming and ruling out some creative alternatives - like pouring sidewalk ice-melt down the roof's drain pipe - we agreed to just have a new commercial-grade heat tape installed by an electrician.
 
@@ -89,7 +89,7 @@ He leaned forward, pointing for emphasis, and spoke:
 
 "Think so...better we put the heat tape the roof next week. See they no working. Next month maybe snow?"
 
-His eyes were wide:.
+His eyes were wide:
 
 "Hey, too easy do 'em now!"
 
