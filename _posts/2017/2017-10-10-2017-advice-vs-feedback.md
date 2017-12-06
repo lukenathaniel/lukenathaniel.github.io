@@ -17,7 +17,7 @@ Bill had a loud voice and a heavy accent. He got right to the point and was neve
 <!--more-->
 
 
-<figure class="jb_picture"><img itemprop="image" alt="Bill Mihalopoulos - 1977" src="/images/2017/08/bill-gangsta.jpg" longdesc="#e9d79173"><figcaption id="e9d79173">Dimitra Mihalopoulos</figcaption></figure>
+<figure class="jb_picture"><img itemprop="image" alt="Bill Mihalopoulos - 1977" src="/images/2017/08/bill-gangsta.jpg" longdesc="#e9d79173"><figcaption id="e9d79173">&copy; Dimitra Mihalopoulos</figcaption></figure>
 
 ---
 
